@@ -1,0 +1,112 @@
+.calculator {
+    background-color: rgb(32, 32, 32);
+}
+
+/* .header {
+    gap: 100px;
+}
+.heading {
+
+} */
+
+.modes {
+    gap: 100px;
+}
+
+.modes > div > h5 {
+    color: white;
+    font-weight: 200;
+    transition: 0.5s;
+}
+
+.modes > div > h5:hover {
+    color: #079992;
+    /* transition: 0.5s; */
+}
+
+.navbar {
+    padding: 20px 50px;
+}
+
+.navbar-brand {
+    color: #079992;
+    font-size: 40px;
+    transition: 0.5s;
+}
+
+.navbar-brand:hover {
+    color: whitesmoke;
+    transition: 0.5s;
+}
+
+.fa{
+    color: white;
+    font-size: 24px;
+    padding-right: 15px;
+    transition: 0.5s;
+}
+
+.fa:hover{
+    color: #079992;
+    transition: 0.5s;
+}
+
+.display {
+   margin: 20px 50px;
+   width: 94vw;
+   height: 200px;
+   text-align: right;
+   font-size: 50px;
+   padding: 0 20px;
+   box-shadow: none;
+   background: transparent;
+   border: none;
+   color: white;
+}
+
+.btnArea {
+    width: 100%;
+    background-color: black;
+    padding: 20px 40px 20px 50px;
+    
+}
+
+.btn-row {
+    width: 94vw;
+}
+
+.btn-row > input {
+    border: 0;
+    outline: 0;
+    width: 25%;
+    height: 80px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.btn-row > input:hover {
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.301), 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-row > input.color-btn {
+    color: #079992;
+}
+
+.btn-row > input.color-btn:hover {
+    box-shadow: -8px -8px 15px rgba(7, 153, 146, 0.548), 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-row > input.equal {
+    background: #026e69;
+    color: #fff;
+    box-shadow: none;
+}
+
+.btn-row > input.equal:hover {
+    box-shadow: none;
+}
