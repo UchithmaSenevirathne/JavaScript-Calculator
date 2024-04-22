@@ -7,9 +7,10 @@
 }
 
 .modes > div > h5 {
-    color: white;
+    color: whitesmoke;
     font-weight: 200;
     transition: 0.5s;
+    font-size: 20px;
 }
 
 .modes > div > h5:hover {
@@ -28,14 +29,15 @@
 }
 
 .navbar-brand:hover {
-    color: whitesmoke;
+    color: rgba(245, 245, 245, 0.815);
     transition: 0.5s;
 }
 
 .fa{
-    color: white;
-    font-size: 24px;
+    color: whitesmoke;
+    font-size: 20px;
     padding-right: 15px;
+    padding-top: 3px;
     transition: 0.5s;
 }
 
@@ -59,8 +61,9 @@
 
 .btnArea {
     width: 100%;
-    background-color: black;
-    padding: 20px 40px 20px 50px;
+    background-color: rgb(24, 24, 24);
+    padding: 50px 40px 20px 50px;
+    border-radius: 50px 50px 0px 0px;
     
 }
 
